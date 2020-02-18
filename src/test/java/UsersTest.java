@@ -7,11 +7,7 @@ public class UsersTest {
     Users testUsers = new Users();
 
     @Test
-    public void users_instantiatesCorrectly_true(){
+    public void testUsers_instantiatesCorrectly_true() {
         assertEquals(true, testUsers instanceof Users);
-    }
-    @Test
-    public void Users_instantiatesWithUserId_true() {
-        assertEquals(1, testUsers.getUser_id());
     }
 }
