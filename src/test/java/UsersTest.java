@@ -19,5 +19,9 @@ public class UsersTest {
     public void Users_instantiatesWithUsername_String() {
         assertEquals("Alex", testUsers.getUser_name());
     }
+    @Test
+    public void Users_instantiatesWithDepartmentName_String() {
+        assertEquals( "Finance", testUsers.getDepartment_name());
+    }
 
 }
