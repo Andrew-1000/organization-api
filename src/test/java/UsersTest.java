@@ -13,7 +13,7 @@ public class UsersTest {
     public void testUsers_instantiatesCorrectly_true() {
         assertEquals(true, testUsers instanceof Users );
     }
-    
+
     @Test
     public void Users_instantiatesWithUsername_String() {
         assertEquals("Alex", testUsers.getUser_name());
