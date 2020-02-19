@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="DepartmentTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2020-02-19T20:13:25" hostname="andrew-x1" time="0.157">
+  <properties/>
+  <testcase name="updateCorrectlyUpdatesAllFields" classname="DepartmentTest" time="0.157"/>
+  <system-out><![CDATA[org.sql2o.Sql2oException: Error in executeUpdate, No value specified for parameter 3.
+Clearing Database
+Connection closed
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
